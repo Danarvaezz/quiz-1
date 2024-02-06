@@ -1,0 +1,91 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@100;200;300;400;500;600;700&display=swap');
+:root{
+	--color-naranja:#ffaf70;
+	--color-titulos:#333;
+	--color-gris:#f2f4ec;
+	--color-hover-menu:#eee;
+	--bg-footer:#1a2130;
+	--bg-header:#ff5f6d;
+	--color-primario:#f75160;
+	--bg-sections:#faf9ff;
+}
+body{
+	
+	font-size: 14px;
+	color: #888;
+}
+h1,h2,h3,h4,h5,h6{
+	color: var(--color-titulos);
+}
+
+#hero .card{
+	background-color: #ffda79;
+	padding: 5px  ;
+	font-size: 12px;
+	font-weight: 700;
+	color: var(--color-titulos);
+	margin: 20px 250px 5px 250px;
+}
+#hero h1 {
+	font-weight: 700;
+	font-size: 70px
+}
+
+#hero a{
+	background-color:#000000;
+	color: var(--bg-sections);
+}
+
+#clients {
+	margin-top: 100px;
+	margin-bottom: 100px;
+	text-align: center; 
+}
+
+#about {
+	background-color: #cce4e4;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#about .card {
+	background-color: #cce4e4;
+	padding: 5px  ;
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--color-titulos);
+	margin: 20px 250px 5px 250px;
+}
+
+#about h2 {
+	font-weight: 700;
+	font-size: 70px;
+	
+}
+#countries {
+	text-align: center;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+
+#countries .card {
+	background-color: #ffda79;
+	padding: 5px  ;
+	font-size: 15px;
+	font-weight: 700;
+	color: var(--color-titulos);
+	margin: 20px 250px 5px 250px;
+}
+
+#subscribe {
+	background-color: #d6bbf6;
+	padding-top: 100px;
+	padding-bottom: 100px;
+}
+#footer p {
+	font-weight:700;
+	font-size: 20px;
+}
+#footer {
+	background-color: #fff;
+}
